@@ -1,0 +1,5 @@
+npm install
+npm install -g @vscode/vsce
+vsce package
+
+vsce package --allow-missing-repository --out "CopilotInstructionsUpdater.vsix" (if you don't have a repository)
